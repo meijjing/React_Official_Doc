@@ -7,7 +7,7 @@ function Welcome(props) {
 }
 
 
-// 컴포넌츠 추출
+// 컴포넌츠 추출 Extraction
 function formatDate(date) {
   return date.toLocaleDateString();
 }
