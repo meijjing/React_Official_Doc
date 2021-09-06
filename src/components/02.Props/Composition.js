@@ -59,7 +59,6 @@ const comment = {
 function Props() {
   return (
     <>
-      <h1>02. Props</h1>
       <Welcome name="Leah" />
       <Welcome name="meijing" />
       <Comment date={comment.date} text={comment.text} author={comment.author} />
