@@ -9,11 +9,19 @@ import Condition from './components/06. ConditionalRendering/Condition';
 import ListandKey from './components/07. List/ListandKey';
 import ControlledComponent from './components/08. Form/ControlledComponent';
 import UncontrolledComponent from './components/08. Form/UncontrolledComponent';
+import UseEffectExample from './components/09. Hook/UseEffectExample';
+import UseReducerExample from './components/09. Hook/UseReducerExample';
+import UseStateExample from './components/09. Hook/UseStateExample';
+import ThankyouDialog from './components/10-2. Compositon2/ThankyouDialog';
+import WelcomeDialog from './components/10-1. Composition/WelcomeDialog';
+import Input from './components/11. HOC/Input';
+import Button from './components/11. HOC/Button';
+
 
 function App() {
   return (
     <>
-      <div className="App">
+      <div className="App" style={{padding: "20px 0"}}>
         <h2>02. Props</h2>
         <Props />
         <hr/>
@@ -41,9 +49,29 @@ function App() {
 
         <h2>08. Form</h2>
         <ControlledComponent />
-        <hr/>
+        
         <UncontrolledComponent />
+        <hr/>
 
+        <h2>09. Hook</h2>
+        <UseStateExample />
+        <UseEffectExample />
+        <UseReducerExample />
+        <hr/>
+
+        <h2>10-1. Composition</h2>
+        <WelcomeDialog />
+        <ThankyouDialog />
+        <hr/>
+
+        <h2>10-2. Composition2</h2>
+        <ThankyouDialog />
+        <hr/>
+
+        <h2>11. HOC</h2>
+        <Input />
+        <Button />
+        <hr/>
 
       </div>
     </>

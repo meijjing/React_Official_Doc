@@ -10,7 +10,7 @@ function UncontrolledComponent() {
 
   return (
     <>
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit} style={{ marginTop: "20px" }}>
         <label>
           Upload file:
           <input type="file" ref={fileInputRef} />
